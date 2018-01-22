@@ -107,7 +107,7 @@ Now you should install the plugin, run the command in your logstash terminal to 
 
 ```
 $ logstash-plugin install ~/demo/logstash-codec-sample-codec/logstash-codec-sample-codec-0.1.0.gem
-Validating /home/esserver/demo/logstash-codec-sample-codec/logstash-codec-sample-codec-0.1.0.gem
+Validating /home/user/demo/logstash-codec-sample-codec/logstash-codec-sample-codec-0.1.0.gem
 Installing logstash-codec-sample-codec
 Installation successful
 ```
