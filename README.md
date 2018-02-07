@@ -165,6 +165,9 @@ Modify sample-codec.rb:
 The logstash-codec-sample-codec-v2 directory under this github project folder has the code for your reference. Now compile the
 plugin and install it. Logstash will process your input with the logic defined in the Processor.java file. Check it out.
 
+# Work with input plugin
+The version 2 code will work with stdin input plugin, but it won't work with some other plugins, e.g., file plugin. To make it work with file input plugin, you should handle the decode method directly. Check the version 3 sample code (sample-codec.rb file) and the sample config file (logstach-conf/file-codec-stdout.conf).
+
 # Conculsion
 
 Processor.java code is simple, it take each line of input (passed in from logstash) and process, convert it based on your
